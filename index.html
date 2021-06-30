@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Floating WhatsApp Button</title>
+    <script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="floating-wpp.css">
+    <script type="text/javascript" src="floating-wpp.js"></script>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif
+        }
+    </style>
+</head>
+
+<body>
+    <div id="food"></div>
+    <div id="whatsapp"></div>
+</body>
+
+<script type="text/javascript">
+    $(function () {
+        $('#food').floatingWhatsApp({
+            position: 'right',
+            phone: '6285811379583',
+            popupMessage: 'Apakah ada yang bisa saya bantu?',
+            message: "ya, saya ingin memesan pizza",
+            showPopup: true,
+            showOnIE: false,
+            headerTitle: 'Selamat Datang',
+            headerColor: 'red',
+            backgroundColor: 'red',
+            buttonImage: '<img src="burger.svg" />'
+        });
+    });
+</script>
+<script type="text/javascript">
+    $(function () {
+        $('#whatsapp').floatingWhatsApp({
+            position: 'left',
+            size: '65px',
+            boxShadow:"10px 20px 80px blue",
+            phone: '6285811379583',
+            popupMessage: 'Hi, Apakah ada yang bisa saya bantu?',
+            message: " ",
+            showPopup: true,
+            showOnIE: true,
+            headerTitle: 'Obrolan Dengan Dimas',
+            headerColor: '#25D366',
+            backgroundColor: '#25D366',
+            buttonImage: '<img src="whatsapp.svg" />'
+        });
+    });
+</script>
+
+</html>
