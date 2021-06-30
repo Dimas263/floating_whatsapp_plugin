@@ -2,6 +2,8 @@
 ![](demo.png)
 Plugin floating WhatsApp dengan menggunakan jQuery.
 
+## Demo Aplikasi
+[Floating Whatsapp Plugin Demo](https://dimas263.github.io/assets/whatsapp)
 
 ## Install
 
