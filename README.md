@@ -1,5 +1,5 @@
 # Floating WhatsApp
-
+![](demo.png)
 Plugin floating WhatsApp dengan menggunakan jQuery.
 
 
