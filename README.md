@@ -1,4 +1,4 @@
-# Floating WhatsApp
+# <img src="https://img.icons8.com/fluent/48/undefined/whatsapp.png"/> Floating WhatsApp
 ![](demo.png)
 Plugin floating WhatsApp dengan menggunakan jQuery.
 
